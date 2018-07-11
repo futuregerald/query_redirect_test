@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/*"
+  to = "/nope.html"
+  status = 301
+  force = false
+  query = {site = ":site"}
