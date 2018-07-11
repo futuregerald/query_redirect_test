@@ -5,3 +5,9 @@
   force = true
   query = {site = ":site"}
   conditions = {Role = ["admin"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
