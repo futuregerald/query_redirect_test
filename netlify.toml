@@ -1,6 +1,7 @@
 [[redirects]]
   from = "/*"
   to = "/nope.html"
-  status = 301
-  force = false
+  status = 302
+  force = true
   query = {site = ":site"}
+  conditions = {Role = ["admin"]}
